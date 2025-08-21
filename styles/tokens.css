@@ -9,25 +9,38 @@
   --slate-300: #d1d1df;
   --white: #fafafa;
 
+  --btn-cyan-hover: #71c0d4;
+  --btn-purple-hover: #b18bdd;
+
   /* Typography Presets */
   --font-family-base: "Red Hat Display", system-ui, sans-serif;
-  --text-preset-1-font-size: 4rem;
+  --text-preset-1-font-size: 2.5rem;
+  --text-preset-1-tablet-font-size: 3rem;
+  --text-preset-1-desktop-font-size: 4rem;
   --text-preset-1-font-weight: 900;
   --text-preset-1-line-height: 1.1;
   --text-preset-1-letter-spacing: 0rem;
-  --text-preset-2-font-size: 2.5rem;
+  --text-preset-2-font-size: 2rem;
+  --text-preset-2-tablet-font-size: 2.25rem;
+  --text-preset-2-desktop-font-size: 2.5rem;
   --text-preset-2-font-weight: 900;
   --text-preset-2-line-height: 1.1;
   --text-preset-2-letter-spacing: 0rem;
-  --text-preset-3-font-size: 1rem;
+  --text-preset-3-font-size: 0.75rem;
+  --text-preset-3-tablet-font-size: 0.875rem;
+  --text-preset-3-desktop-font-size: 1rem;
   --text-preset-3-font-weight: 900;
   --text-preset-3-line-height: 1.1;
   --text-preset-3-letter-spacing: 0.25rem;
-  --text-preset-4-font-size: 1.125rem;
+  --text-preset-4-font-size: 1rem;
+  --text-preset-4-tablet-font-size: 1rem;
+  --text-preset-4-desktop-font-size: 18px;
   --text-preset-4-font-weight: 500;
   --text-preset-4-line-height: 1.1;
   --text-preset-4-letter-spacing: 0rem;
   --text-preset-5-font-size: 1rem;
+  --text-preset-5-tablet-font-size: 1rem;
+  --text-preset-5-desktop-font-size: 1rem;
   --text-preset-5-font-weight: 900;
   --text-preset-5-line-height: 1.5;
   --text-preset-5-letter-spacing: 0rem;
