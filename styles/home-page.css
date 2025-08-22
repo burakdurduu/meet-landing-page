@@ -17,9 +17,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+  overflow: hidden;
 }
 
 .hero-img-mobile {
+  place-items: center;
   width: 110%;
   margin: 4rem -1rem 1rem;
 }
@@ -27,6 +30,7 @@
 .hero-content {
   display: flex;
   flex-direction: column;
+  max-width: 28.0188rem;
   padding: 2rem;
   gap: 1.5rem;
 }
@@ -89,12 +93,13 @@
 }
 
 .image-collage img {
-  border-radius: 1rem;
+  border-radius: 0.5rem;
 }
 
 .text-content {
   display: flex;
   flex-direction: column;
+  max-width: 31.5rem;
 }
 
 .text-content .text-content-info {
@@ -131,6 +136,9 @@
   color: var(--slate-600);
   background-color: var(--white);
   z-index: 1;
+}
+footer {
+  width: 100%;
 }
 
 footer .number {
@@ -183,5 +191,84 @@ footer .number {
   * {
     animation: none !important;
     transition: none !important;
+  }
+}
+
+@media (min-width: 48rem) {
+  .hero-links {
+    flex-direction: row;
+  }
+
+  .image-collage {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .hero-content {
+    margin-top: 1.5rem;
+    padding-bottom: 4rem;
+  }
+
+  .footer-content {
+    background-image: url("../assets/tablet/image-footer.jpg");
+  }
+
+  .footer-content > * {
+    max-width: 31.5rem;
+  }
+}
+
+@media (min-width: 75rem) {
+  .hero-img-mobile {
+    display: none;
+  }
+
+  .hero-img-desktop {
+    display: block;
+  }
+
+  .hero-left {
+    position: relative;
+    right: 100px;
+  }
+
+  .hero-right {
+    position: relative;
+    left: 100px;
+  }
+
+  .hero {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 4rem 5rem;
+  }
+
+  .hero-content {
+    min-width: 28.125rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  .hero-links {
+    justify-content: center;
+  }
+
+  .main-content {
+    padding: 3.5rem 5rem 4.5rem;
+  }
+
+  .image-collage {
+    max-width: 70rem;
+  }
+
+  .footer-content {
+    background-image: url("../assets/desktop/image-footer.jpg");
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    text-align: left;
+    padding: 7rem 7rem;
+    gap: 2rem;
   }
 }

@@ -33,3 +33,49 @@ p {
   line-height: var(--text-preset-5-line-height);
   letter-spacing: var(--text-preset-5-letter-spacing);
 }
+
+@media (min-width: 48rem) {
+  h1 {
+    font-size: var(--text-preset-1-tablet-font-size);
+  }
+
+  h2 {
+    font-size: var(--text-preset-2-tablet-font-size);
+  }
+
+  .text-content-info {
+    font-size: var(--text-preset-3-tablet-font-size);
+  }
+
+  p {
+    font-size: var(--text-preset-4-tablet-font-size);
+  }
+
+  .btn,
+  .number {
+    font-size: var(--text-preset-5-tablet-font-size);
+  }
+}
+
+@media (min-width: 75rem) {
+  h1 {
+    font-size: var(--text-preset-1-desktop-font-size);
+  }
+
+  h2 {
+    font-size: var(--text-preset-2-desktop-font-size);
+  }
+
+  .text-content-info {
+    font-size: var(--text-preset-3-desktop-font-size);
+  }
+
+  p {
+    font-size: var(--text-preset-4-desktop-font-size);
+  }
+
+  .btn,
+  .number {
+    font-size: var(--text-preset-5-desktop-font-size);
+  }
+}
