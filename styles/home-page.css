@@ -218,6 +218,10 @@ footer .number {
 }
 
 @media (min-width: 75rem) {
+  .page-header {
+    padding-top: 5rem;
+  }
+
   .hero-img-mobile {
     display: none;
   }
@@ -229,11 +233,13 @@ footer .number {
   .hero-left {
     position: relative;
     right: 100px;
+    bottom: 30px;
   }
 
   .hero-right {
     position: relative;
     left: 100px;
+    top: 30px;
   }
 
   .hero {
@@ -246,8 +252,9 @@ footer .number {
 
   .hero-content {
     min-width: 28.125rem;
-    padding: 0;
+    padding: 1.4375rem 0;
     margin: 0;
+    gap: 2rem;
   }
 
   .hero-links {
@@ -260,6 +267,11 @@ footer .number {
 
   .image-collage {
     max-width: 70rem;
+  }
+
+  .image-collage img {
+    width: 16rem;
+    height: 16rem;
   }
 
   .footer-content {
